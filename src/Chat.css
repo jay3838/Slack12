@@ -1,0 +1,31 @@
+.chat{
+    flex:0.7;
+}
+.chat__header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid lightgrey;
+   width: 170vh;
+   
+}
+.chat__headerleft >h4{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+    
+}
+.chat__headerleft > h4 .MuiSvgIcon-root{
+    margin-left: 15px;
+}
+
+.chat__headerright >p{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.chat__headerright > p .MuiSvgIcon-root{
+    margin-right: 15px;
+}

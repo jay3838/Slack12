@@ -1,0 +1,55 @@
+.sidebar{
+    /* display: flex; */
+   color: white;
+   border-top: 1px solid #49274b;
+   background-color:#3f0f40;
+   max-width: 320px;
+   flex:0.3;
+   
+}
+.sidebar__header{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom: 1px solid #49274b;
+    margin-left: 5px;
+ 
+}
+.sidebar__header .MuiSvgIcon-root{
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 999px;
+    color: #49274b;
+    padding: 8px;
+    margin: -30px 10px; 
+
+}
+ 
+.sidebar__info{
+    flex:1;
+}
+.sidebar__info >h2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.sidebar__info >h3{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px 10px;
+
+}
+.sidebar__info > h3 .MuiSvgIcon-root{
+    color: green;
+    font-size: 1.0rem;
+    padding: 0;
+    background-color: #3f0f40;
+}
+.sidebar > hr{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #49274b;
+}
+ 

@@ -1,0 +1,29 @@
+.sidebaroption__icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+.sidebaroption__iconmain{
+    margin-left: 25px;
+}
+.sidebaroption__icon >h3{
+    margin-left: 15px;
+}
+.sidebaroption__iconmain .MuiSvgIcon-root{
+    font-size: 1.3rem;
+}
+.sidebaroption__hash{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.sidebaroption__hash > p{
+    margin-left: 25px;
+}
+.sidebaroption__hash >h3{
+    margin-left: 15px;
+}

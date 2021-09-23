@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         {
-          !user ? (
+          user ? (
             <Login/>
           ):(
             <>
